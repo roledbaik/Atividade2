@@ -1,0 +1,104 @@
+body {
+  font-family: "Poppins", sans-serif;
+  color: #575a7b;
+}
+
+.navbar:before {
+  -o-border-image: linear-gradient(
+      90deg,
+      #575a7b,
+      #575a7b 20%,
+      #f9655b 0,
+      #f9655b 40%,
+      #f5c070 0,
+      #f5c070 60%,
+      #6658ea 0,
+      #6658ea 80%,
+      #fcc 0
+    )
+    1;
+  border-image: linear-gradient(
+      90deg,
+      #575a7b,
+      #575a7b 20%,
+      #f9655b 0,
+      #f9655b 40%,
+      #f5c070 0,
+      #f5c070 60%,
+      #6658ea 0,
+      #6658ea 80%,
+      #fcc 0
+    )
+    1;
+  border-width: 0;
+  border-top: 4px solid;
+  content: "";
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.navbar {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 1.25rem 0;
+}
+
+header {
+  padding: 8rem 0 8rem;
+}
+
+.container {
+  display: flex;
+  justify-content: right;
+}
+
+.card {
+  margin: auto;
+  background: #fff;
+  padding: 0 0 0.25rem;
+  border-radius: 0.25rem;
+  margin-bottom: 2rem;
+}
+
+#zelda {
+  display: flex;
+  justify-content: left;
+  padding: 10rem 0 12rem;
+  margin: auto;
+}
+
+h1 {
+  font-weight: normal;
+  margin-top: 1.2rem;
+  margin-bottom: 0.8rem;
+}
+
+#oscar {
+  text-align: right;
+  padding: 10rem 0 12rem;
+  margin: auto;
+}
+
+#utena {
+  display: flex;
+  justify-content: left;
+  padding: 10rem 0 12rem;
+}
+
+#fin {
+  width: min(100vw, 1230px);
+  margin: auto;
+  background: #fff;
+  padding: 1.5rem 2rem;
+  border-radius: 0.25rem;
+  margin-bottom: 2rem;
+}
+
+.card:hover {
+  opacity: 1;
+  opacity: 0.7;
+}
